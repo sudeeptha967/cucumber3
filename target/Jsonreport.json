@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "sigup verification",
+        "description": "",
+        "id": "sign-up-functionality;sigup-verification;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21751161200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open home page",
+            "match": {
+              "location": "cucumber_testme.open_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592125100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter the username \u0027merrrrrrrrryhum\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027merrrrrrrrryhum\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "cucumber_testme.enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219731600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the firstName",
+            "match": {
+              "location": "cucumber_testme.enter_the_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196426100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the lastname",
+            "match": {
+              "location": "cucumber_testme.enter_the_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295127000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the password",
+            "match": {
+              "location": "cucumber_testme.enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205514300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the confirm password",
+            "match": {
+              "location": "cucumber_testme.enter_the_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180431200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the gender",
+            "match": {
+              "location": "cucumber_testme.enter_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314915900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the email",
+            "match": {
+              "location": "cucumber_testme.enter_the_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259422700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the mobile no",
+            "match": {
+              "location": "cucumber_testme.enter_the_mobile_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398272700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter\tthe date of birth",
+            "match": {
+              "location": "cucumber_testme.enter_the_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349221000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter the address",
+            "match": {
+              "location": "cucumber_testme.enter_the_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138687100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the security question",
+            "match": {
+              "location": "cucumber_testme.enter_the_security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185615200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter the answer",
+            "match": {
+              "location": "cucumber_testme.enter_the_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687110300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click register",
+            "match": {
+              "location": "cucumber_testme.click_register()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat cucumber_testme_demo.cucumber_testme.validate_the_page(cucumber_testme.java:88)\r\n\tat ✽.validate the page(src/test/resources/feature/feature1.feature:17)\r\n",
+              "duration": 19182800,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "validate the page",
+            "match": {
+              "location": "cucumber_testme.validate_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "sign up functionality",
+    "description": "",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/feature1.feature",
+    "tags": []
+  }
+]
